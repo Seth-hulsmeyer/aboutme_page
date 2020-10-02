@@ -25,18 +25,19 @@ container {
   border-radius: 25px;
 }
 container h1 {
-  color: rgb(0, 102, 255);
+  color: rgb(0, 132, 255);
 }
 
 .textwrap {
   float: left;
   height: 350px;
   width: 350px;
+  width: 50%;
+  height: 50%;
   margin-right: 20px;
 }
 
-.portPic {
-  width: 350px;
-  height: 350px;
-  margin: 5px;
+.img-thumbnail {
+  width: 95%;
+  height: 95%;
 }
