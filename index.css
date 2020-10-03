@@ -51,6 +51,17 @@ aside {
   border-radius: 25px;
   margin-bottom: 60px;
 }
+@media only screen and (max-width: 600px) {
+  container {
+    width: 95vw;
+    margin: 40px 0;
+  }
+  aside {
+    width: 85vw;
+    margin: 0 0 20px 0;
+    clear: both;
+  }
+}
 
 aside h5 {
   color: rgb(0, 132, 255);
