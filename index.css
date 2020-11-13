@@ -51,6 +51,7 @@ aside {
   border-radius: 25px;
   margin-bottom: 60px;
 }
+
 @media only screen and (max-width: 600px) {
   container {
     width: 95vw;
@@ -60,6 +61,14 @@ aside {
     width: 85vw;
     margin: 0 0 20px 0;
     clear: both;
+  }
+  .col-sm-6 {
+    width: 95%;
+    height: 95%;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -73,9 +82,9 @@ aside h5 {
 }
 
 /* images on portfolio page  */
-.img-thumbnail {
-  width: 95%;
-  height: 95%;
+.col-sm-6 {
+  width: 90%;
+  height: 90%;
 }
 
 /* footer editing  */
