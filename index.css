@@ -66,10 +66,6 @@ aside {
     width: 95%;
     height: 95%;
   }
-  .card-img-top {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 aside h5 {
@@ -83,8 +79,9 @@ aside h5 {
 
 /* images on portfolio page  */
 .col-sm-6 {
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
+  margin-bottom: 20px;
 }
 
 /* footer editing  */
